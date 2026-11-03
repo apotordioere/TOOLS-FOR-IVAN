@@ -19,7 +19,7 @@ DeepSeek Harness 插件。侧边栏点「Torso」，中间是一张**画布式�
 ### 从源码装到别的 profile
 
 ```bash
-git clone https://github.com/<你的用户名>/torso.git
+git clone https://github.com/apotordioere/TOOLS-FOR-IVAN.git
 ```
 
 然后在 DSH 里让插件管理器安装这个**目录的绝对路径**（不是包名）：
