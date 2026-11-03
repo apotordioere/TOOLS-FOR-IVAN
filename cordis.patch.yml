@@ -1,0 +1,7 @@
+# Torso：侧边栏入口 + 中央画布面板。
+# Host 侧提供同源接口 /api/torso/*（项目、设置、出图、出片、任务轮询）。
+- insert:
+    - id: torso
+      name: dsh-torso
+      config:
+        root: 'D:/DESKTOP/DEEPSEEK专用/Torso'

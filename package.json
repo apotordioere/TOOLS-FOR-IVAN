@@ -1,0 +1,45 @@
+{
+  "name": "dsh-torso",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Torso：画布式分镜台，镜头脚本 + 首尾帧出图 + 第三方视频 API 出片",
+  "type": "module",
+  "main": "./index.js",
+  "license": "MIT",
+  "author": "鲍柳涛",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "storyboard",
+    "text-to-video",
+    "image-generation"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "client",
+    "locale",
+    "docs",
+    "test",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  }
+}
